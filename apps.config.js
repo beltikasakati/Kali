@@ -1,4 +1,4 @@
-import displaySpotify from './components/apps/spotify';
+import displayGemini from './components/apps/gemini';
 import displayVsCode from './components/apps/vscode';
 import { displayTerminal } from './components/apps/terminal';
 import { displaySettings } from './components/apps/settings';
@@ -28,8 +28,8 @@ const apps = [
         screen: displayTerminalCalc,
     },
     {
-        id: "about-aslam",
-        title: "About Aslam",
+        id: "about",
+        title: "About",
         icon: './themes/Yaru/system/mc-home-logo.png',
         disabled: false,
         favourite: true,
@@ -55,13 +55,13 @@ const apps = [
         screen: displayTerminal,
     },
     {
-        id: "spotify",
-        title: "Spotify",
-        icon: './themes/Yaru/apps/spotify.png',
+        id: "gemini",
+        title: "Gemi",
+        icon: './themes/Yaru/apps/gemini.png',
         disabled: false,
         favourite: true,
         desktop_shortcut: false,
-        screen: displaySpotify, // India Top 50 Playlist 😅
+        screen: displayGemini , // Gemini
     },
     {
         id: "settings",
@@ -83,7 +83,7 @@ const apps = [
     },
     {
         id: "gedit",
-        title: "Contact Me",
+        title: "Contact",
         icon: './themes/Yaru/apps/gedit.png',
         disabled: false,
         favourite: false,
