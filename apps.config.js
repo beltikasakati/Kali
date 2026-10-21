@@ -47,7 +47,7 @@ const apps = [
     },
     {
         id: "terminal",
-        title: "Terminal",
+        title: "Ter",
         icon: './themes/Yaru/apps/kali-terminal.png',
         disabled: false,
         favourite: true,
